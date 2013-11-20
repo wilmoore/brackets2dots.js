@@ -35,6 +35,6 @@
     ]
   },
   "volo": {
-    "url": "https://raw.github.com/wilmoore/brackets2dots/v{version}/brackets2dots.js"
+    "url": "https://raw.github.com/wilmoore/brackets2dots.js/v{version}/brackets2dots.js"
   }
 }

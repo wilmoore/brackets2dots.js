@@ -23,7 +23,7 @@
 
 [npm](https://npmjs.org/package/brackets2dots.js)
 
-[![NPM](https://nodei.co/npm/brackets2dots.png?downloads=true)](https://nodei.co/npm/brackets2dots/)
+[![NPM](https://nodei.co/npm/brackets2dots.js.png?downloads=true)](https://nodei.co/npm/brackets2dots.js/)
 
 [jam](http://jamjs.org/packages/#/details/brackets2dots.js)
 

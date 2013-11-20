@@ -35,7 +35,7 @@
 
 [global][]
 
-    <script src="https://raw.github.com/wilmoore/brackets2dots.js/master/brackets2dots.min.js"></script>
+    <script src="https://raw.github.com/wilmoore/brackets2dots.js/master/brackets2dots.js"></script>
 
 ## Inspiration
 

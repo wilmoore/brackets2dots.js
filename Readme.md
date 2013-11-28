@@ -1,8 +1,4 @@
-# brackets2dots.js
-
-[![Build Status](https://travis-ci.org/wilmoore/brackets2dots.js.png?branch=master)](https://travis-ci.org/wilmoore/brackets2dots.js)
-[![Build Status](https://david-dm.org/wilmoore/brackets2dots.js.png)](https://david-dm.org/wilmoore/brackets2dots.js)
-[![NPM version](https://badge.fury.io/js/brackets2dots.js.png)](http://badge.fury.io/js/brackets2dots.js)
+# brackets2dots.js [![Build Status](https://travis-ci.org/wilmoore/brackets2dots.js.png?branch=master)](https://travis-ci.org/wilmoore/brackets2dots.js) [![Build Status](https://david-dm.org/wilmoore/brackets2dots.js.png)](https://david-dm.org/wilmoore/brackets2dots.js) [![NPM version](https://badge.fury.io/js/brackets2dots.js.png)](http://badge.fury.io/js/brackets2dots.js)
 
   Convert string with bracket notation to dot property notation for [Node.js][] and the browser.
 

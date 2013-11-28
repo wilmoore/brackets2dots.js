@@ -21,7 +21,9 @@ module.exports = brackets2dots;
  */
 
 function brackets2dots(string) {
-  return (typeof string == 'string') ? string.replace(/\[(\d+)\]/g, '.$1') : '';
+  return ({}).toString.call(string) == '[object String]'
+       ? string.replace(/\[(\d+)\]/g, '.$1')
+       : ''
 }
 
 

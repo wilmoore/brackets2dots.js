@@ -29,9 +29,15 @@
 
     $ volo add wilmoore/brackets2dots.js
 
-[global][]
+[manual][]
 
-    <script src="https://raw.github.com/wilmoore/brackets2dots.js/master/brackets2dots.js"></script>
+1. download
+
+        % curl -#O https://raw.github.com/wilmoore/brackets2dots.js/master/brackets2dots.js
+
+2. use
+
+        <script src="brackets2dots.js"></script>
 
 ## Inspiration
 
@@ -44,3 +50,5 @@
 [selectn]:  https://github.com/wilmoore/selectn
 [global]:   https://raw.github.com/wilmoore/brackets2dots.js/master/brackets2dots.min.js
 [Node.js]:  http://nodejs.org
+[manual]:   http://yuiblog.com/blog/2006/06/01/global-domination/
+

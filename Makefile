@@ -17,4 +17,4 @@ node_modules: package.json
 	@npm prune
 	@npm install
 
-package: test $(STANDALONE).js
+release: test $(STANDALONE).js

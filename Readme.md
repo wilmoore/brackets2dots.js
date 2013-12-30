@@ -21,10 +21,6 @@
 
 [![NPM](https://nodei.co/npm/brackets2dots.js.png?downloads=true)](https://nodei.co/npm/brackets2dots.js/)
 
-[jam](http://jamjs.org/packages/#/details/brackets2dots.js)
-
-    $ jam install brackets2dots.js
-
 [volo](http://volojs.org)
 
     $ volo add wilmoore/brackets2dots.js

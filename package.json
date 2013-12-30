@@ -19,20 +19,9 @@
     "type": "git",
     "url": "https://github.com/wilmoore/brackets2dots.js"
   },
-  "component": {
-    "scripts": {
-      "selectn": "index.js"
-    }
-  },
   "devDependencies": {
     "mocha": "*",
-    "browserify": "~2.27.1"
-  },
-  "jam": {
-    "include": [
-      "brackets2dots.js",
-      "Readme.md"
-    ]
+    "browserify": "*"
   },
   "volo": {
     "url": "https://raw.github.com/wilmoore/brackets2dots.js/v{version}/brackets2dots.js"

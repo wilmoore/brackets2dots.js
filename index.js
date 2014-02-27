@@ -11,6 +11,9 @@ module.exports = brackets2dots;
  *      brackets2dots('group[0].section.a.seat[3]')
  *      //=> 'group.0.section.a.seat.3'
  *
+ *      brackets2dots('[0].section.a.seat[3]')
+ *      //=> '0.section.a.seat.3'
+ *
  * @param  {String} string
  * original string
  *
@@ -20,7 +23,7 @@ module.exports = brackets2dots;
 
 function brackets2dots(string) {
   return ({}).toString.call(string) == '[object String]'
-       ? string.replace(/\[(\d+)\]/g, '.$1')
+       ? string.replace(/\[(\d+)\]/g, '.$1').replace(/^[.]*|[.]*$/g, '')
        : ''
 }
 

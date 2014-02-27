@@ -3,9 +3,17 @@ var assert = require('assert');
 
 describe('brackets2dots()', function(){
 
-  it('returns a dot-notation string', function() {
-    var path = 'group[0].section.a.seat[3]';
-    assert(brackets2dots(path) === 'group.0.section.a.seat.3');
+  var cases = [
+    { input: 'group[0].section.a.seat[3]', expected: 'group.0.section.a.seat.3' },
+    { input: '[0].section.a.seat[3]', expected: '0.section.a.seat.3' }
+  ];
+
+  cases.forEach(function (test) {
+
+    it(test.input + ' => ' + test.expected, function() {
+      assert.equal(brackets2dots(test.input), test.expected);
+    });
+
   });
 
 });

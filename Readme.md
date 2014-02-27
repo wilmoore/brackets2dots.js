@@ -1,25 +1,27 @@
-# brackets2dots.js [![Build Status](https://travis-ci.org/wilmoore/brackets2dots.js.png?branch=master)](https://travis-ci.org/wilmoore/brackets2dots.js) [![Build Status](https://david-dm.org/wilmoore/brackets2dots.js.png)](https://david-dm.org/wilmoore/brackets2dots.js) [![NPM version](https://badge.fury.io/js/brackets2dots.js.png)](http://badge.fury.io/js/brackets2dots.js)
+# brackets2dots.js [![Build Status](https://travis-ci.org/wilmoore/brackets2dots.js.png?branch=master)](https://travis-ci.org/wilmoore/brackets2dots.js) [![Build Status](https://david-dm.org/wilmoore/brackets2dots.png)](https://david-dm.org/wilmoore/brackets2dots) [![NPM version](https://badge.fury.io/js/brackets2dots.png)](http://badge.fury.io/js/brackets2dots)
 
   Convert string with bracket notation to dot property notation for [Node.js][] and the browser.
 
 ## Example
+
+    var brackets2dots = require('brackets2dots');
 
     brackets2dots('group[0].section.a.seat[3]')
     //=> 'group.0.section.a.seat.3'
 
 ## Installation
 
-[component](http://component.io/wilmoore/brackets2dots.js)
+[component](http://component.io/wilmoore/brackets2dots)
 
-    $ component install wilmoore/brackets2dots.js
+    $ component install wilmoore/brackets2dots
 
 [bower](http://sindresorhus.com/bower-components/)
 
     $ bower install brackets2dots.js
 
-[npm](https://npmjs.org/package/brackets2dots.js)
+[npm](https://npmjs.org/package/brackets2dots)
 
-[![NPM](https://nodei.co/npm/brackets2dots.js.png?downloads=true)](https://nodei.co/npm/brackets2dots.js/)
+[![NPM](https://nodei.co/npm/brackets2dots.png?downloads=true)](https://nodei.co/npm/brackets2dots/)
 
 [volo](http://volojs.org)
 

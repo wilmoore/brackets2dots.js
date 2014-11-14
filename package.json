@@ -12,6 +12,7 @@
     "nested"
   ],
   "main": "./index",
+  "license": "MIT",
   "scripts": {
     "test": "make test"
   },

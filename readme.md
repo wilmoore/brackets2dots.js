@@ -1,43 +1,43 @@
-# greater-than.js
+# brackets2dots.js
 
-[![Build Status](http://img.shields.io/travis/wilmoore/greater-than.js.svg)](https://travis-ci.org/wilmoore/greater-than.js) [![NPM version](http://img.shields.io/npm/v/greater-than.svg)](https://www.npmjs.org/package/greater-than) [![NPM downloads](http://img.shields.io/npm/dm/greater-than.svg)](https://www.npmjs.org/package/greater-than) [![LICENSE](http://img.shields.io/npm/l/greater-than.svg)](license)
+[![Build Status](http://img.shields.io/travis/wilmoore/brackets2dots.js.svg)](https://travis-ci.org/wilmoore/brackets2dots.js) [![NPM version](http://img.shields.io/npm/v/brackets2dots.svg)](https://www.npmjs.org/package/brackets2dots) [![NPM downloads](http://img.shields.io/npm/dm/brackets2dots.svg)](https://www.npmjs.org/package/brackets2dots) [![LICENSE](http://img.shields.io/npm/l/brackets2dots.svg)](license)
 
 > Convert string with bracket notation to dot property notation for [Node.js][] and the browser.
 
 ## Example
 
-    var greater-than = require('greater-than');
+    var brackets2dots = require('brackets2dots');
 
-    greater-than('group[0].section.a.seat[3]')
+    brackets2dots('group[0].section.a.seat[3]')
     //=> 'group.0.section.a.seat.3'
 
 ## Installation
 
-[component](http://component.io/wilmoore/greater-than)
+[component](http://component.io/wilmoore/brackets2dots)
 
-    $ component install wilmoore/greater-than
+    $ component install wilmoore/brackets2dots
 
 [bower](http://sindresorhus.com/bower-components/)
 
-    $ bower install greater-than.js
+    $ bower install brackets2dots.js
 
-[npm](https://npmjs.org/package/greater-than)
+[npm](https://npmjs.org/package/brackets2dots)
 
-[![NPM](https://nodei.co/npm/greater-than.png?downloads=true)](https://nodei.co/npm/greater-than/)
+[![NPM](https://nodei.co/npm/brackets2dots.png?downloads=true)](https://nodei.co/npm/brackets2dots/)
 
 [volo](http://volojs.org)
 
-    $ volo add wilmoore/greater-than.js
+    $ volo add wilmoore/brackets2dots.js
 
 [manual][]
 
 1. download
 
-        % curl -#O https://raw.github.com/wilmoore/greater-than.js/master/greater-than.js
+        % curl -#O https://raw.github.com/wilmoore/brackets2dots.js/master/brackets2dots.js
 
 2. use
 
-        <script src="greater-than.js"></script>
+        <script src="brackets2dots.js"></script>
 
 ## Inspiration
 

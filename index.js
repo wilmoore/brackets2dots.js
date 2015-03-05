@@ -1,7 +1,17 @@
+'use strict';
 
-// expose `brackets2dots`
+/*!
+ * exports.
+ */
 
 module.exports = brackets2dots;
+
+/*!
+ * regexp patterns.
+ */
+
+var REPLACE_BRACKETS = /\[([^\[\]]+)\]/g;
+var LFT_RT_TRIM_DOTS = /^[.]*|[.]*$/g;
 
 /**
  * Convert string with bracket notation to dot property notation.
@@ -14,6 +24,9 @@ module.exports = brackets2dots;
  *      brackets2dots('[0].section.a.seat[3]')
  *      //=> '0.section.a.seat.3'
  *
+ *      brackets2dots('people[*].age')
+ *      //=> 'people.*.age'
+ *
  * @param  {String} string
  * original string
  *
@@ -23,7 +36,6 @@ module.exports = brackets2dots;
 
 function brackets2dots(string) {
   return ({}).toString.call(string) == '[object String]'
-       ? string.replace(/\[(\d+)\]/g, '.$1').replace(/^[.]*|[.]*$/g, '')
+       ? string.replace(REPLACE_BRACKETS, '.$1').replace(LFT_RT_TRIM_DOTS, '')
        : ''
 }
-

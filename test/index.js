@@ -5,7 +5,8 @@ describe('brackets2dots()', function(){
 
   var cases = [
     { input: 'group[0].section.a.seat[3]', expected: 'group.0.section.a.seat.3' },
-    { input: '[0].section.a.seat[3]', expected: '0.section.a.seat.3' }
+    { input: '[0].section.a.seat[3]', expected: '0.section.a.seat.3' },
+    { input: 'company.people[*].name', expected: 'company.people.*.name' }
   ];
 
   cases.forEach(function (test) {

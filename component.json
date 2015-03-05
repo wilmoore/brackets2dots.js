@@ -1,6 +1,6 @@
 {
   "name": "brackets2dots",
-  "version": "0.9.0",
+  "version": "1.1.0",
   "description": "Convert string with bracket notation to dot property notation for Node.js and the browser.",
   "repo": "wilmoore/brackets2dots.js",
   "keywords": [
